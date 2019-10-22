@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<Extern href="stdidcmd.h"/>
+	<Extern href="vsshlids.h"/>
+
+	<Extern href="VSDbgCmd.h" />
+	<Extern href="VsDebugGuids.h" />
+
+	<Commands package="guidVisualStudioPackage">
+		<Buttons>
+			<Button guid="guidVisualStudioPackageCmdSet" id="BreakInCurrentDocumentId" priority="0x0100" type="Button">
+				<Parent guid="guidVSDebugGroup" id="IDG_EXECUTION" />
+				<Icon guid="guidImages" id="Icon" />
+				<Strings>
+					<ButtonText>Break All in Current Document</ButtonText>
+				</Strings>
+			</Button>
+
+			<Button guid="guidVisualStudioPackageCmdSet" id="BreakInCurrentDocumentId" priority="0x0100" type="Button">
+				<Parent guid="guidVSDebugGroup" id="IDG_DEBUG_TOOLBAR_EXECUTION" />
+				<Icon guid="guidImages" id="Icon" />
+				<Strings>
+					<ButtonText>Break All in Current Document</ButtonText>
+				</Strings>
+			</Button>
+		</Buttons>
+
+		<Bitmaps>
+			<Bitmap guid="guidImages" href="Resources\Command.png" usedList="Icon"/>
+		</Bitmaps>
+	</Commands>
+
+	<Symbols>
+		<GuidSymbol name="guidVisualStudioPackage" value="{0a3b6bda-c922-4a82-afe5-3767be3b84a1}" />
+
+		<GuidSymbol name="guidVisualStudioPackageCmdSet" value="{6a107191-e421-4952-9040-9b840ac8e922}">
+			<IDSymbol name="BreakInCurrentDocumentId" value="0x0100" />
+		</GuidSymbol>
+
+		<GuidSymbol name="guidImages" value="{5c2d1209-69b7-4002-b3de-afb0d535829d}" >
+			<IDSymbol name="Icon" value="1" />
+		</GuidSymbol>
+	</Symbols>
+</CommandTable>
