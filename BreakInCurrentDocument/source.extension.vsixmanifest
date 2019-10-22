@@ -4,8 +4,8 @@
 		<Identity Id="BreakInCurrentDocument.9bd11a00-f884-4e87-8d1c-c579af10ab79" Version="1.0" Language="en-US" Publisher="Thijs Tijsma" />
 		<DisplayName>Break In Current Document</DisplayName>
 		<Description xml:space="preserve">Break All and stay in the current document.</Description>
-		<Icon>Resources\BreakInCurrentDocument.png</Icon>
-		<PreviewImage>Resources\BreakInCurrentDocument.png</PreviewImage>
+		<Icon>Resources\Icon.png</Icon>
+		<PreviewImage>Resources\Icon.png</PreviewImage>
 	</Metadata>
 	<Installation>
 		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
