@@ -1,0 +1,14 @@
+{
+	"$schema": "http://json.schemastore.org/vsix-publish",
+	"publisher": "thijstijsma",
+	"identity":
+	{
+		"internalName": "BreakInCurrentDocument"
+	},
+	"categories":
+	[
+		"coding"
+	],
+	"overview": "overview.md",
+	"repo": "https://github.com/thijstijsma/BreakInCurrentDocument"
+}

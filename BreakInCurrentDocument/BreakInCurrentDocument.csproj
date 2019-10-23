@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Key.snk" />
-    <None Include="source.extension.vsixmanifest">
+    <None Include="Properties\manifest.json" />
+    <None Include="Properties\overview.md" />
+    <None Include="Properties\source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
